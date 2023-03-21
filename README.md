@@ -12,7 +12,7 @@
   
   
 ## Commands
-Note: commands below are formatted to be executed on Windows. For another OS replace the caret (^) with backslash (\).
+Note: commands below are formatted to be executed on Windows. For another OS replace the caret ( ^ ) with backslash ( \\ ).
 
 ### Create a table
 ```
