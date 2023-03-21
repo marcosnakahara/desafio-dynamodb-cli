@@ -15,14 +15,14 @@
 
 ### Criar uma tabela
 ```
-aws dynamodb create-table \
-    --table-name Game \
-    --attribute-definitions \
-        AttributeName=Producer,AttributeType=S \
-        AttributeName=GameTitle,AttributeType=S \
-    --key-schema \
-        AttributeName=Producer,KeyType=HASH \
-        AttributeName=GameTitle,KeyType=RANGE \
-    --provisioned-throughput \
+aws dynamodb create-table ^
+    --table-name Game ^
+    --attribute-definitions ^
+        AttributeName=Producer,AttributeType=S ^
+        AttributeName=GameTitle,AttributeType=S ^
+    --key-schema ^
+        AttributeName=Producer,KeyType=HASH ^
+        AttributeName=GameTitle,KeyType=RANGE ^
+    --provisioned-throughput ^
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
