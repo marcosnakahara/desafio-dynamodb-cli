@@ -1,19 +1,20 @@
 # desafio-dynamodb-cli
 
-- Instalar AWS CLI
+- Install AWS CLI
 [download](https://aws.amazon.com/pt/cli/)
 - aws configure
-  - Criar acess key em: AWS Login > Security Credentials > Access Keys
-  - Informar:
+  - Create a acess key: AWS Login > Security Credentials > Access Keys
+  - Input:
     - AWS Access Key ID
     - AWS Secret Access Key
     - Default region name
     - Default output format
   
   
-## Comandos
+## Commands
+Note: commands below are formatted to be executed on Windows. For another OS replace the caret (^) with backslash (\).
 
-### Criar uma tabela
+### Create a table
 ```
 aws dynamodb create-table ^
     --table-name Game ^
