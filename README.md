@@ -14,6 +14,7 @@
 ## Comandos
 
 ### Criar uma tabela
+```
 aws dynamodb create-table \
     --table-name Game \
     --attribute-definitions \
@@ -24,4 +25,4 @@ aws dynamodb create-table \
         AttributeName=GameTitle,KeyType=RANGE \
     --provisioned-throughput \
         ReadCapacityUnits=10,WriteCapacityUnits=5
-        
+```
