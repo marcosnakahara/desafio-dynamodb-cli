@@ -1,0 +1,34 @@
+{
+    "Game": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Publisher": {"S": "Square Enix"},
+                  "GameTitle": {"S": "Final Fantasy XV"},
+                  "Franchise": {"S": "Final Fantasy"},
+                  "ReleaseYear": {"S": "2016"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Publisher": {"S": "Konami"},
+                  "GameTitle": {"S": "Metal Gear Solid"},
+                  "Franchise": {"S": "Metal Gear"},
+                  "ReleaseYear": {"S": "1998"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Publisher": {"S": "Rockstar Games"},
+                  "GameTitle": {"S": "Grand Theft Auto V"},
+                  "Franchise": {"S": "Grand Theft Auto"},
+                  "ReleaseYear": {"S": "2013"}
+                }
+            }
+        }
+      ]
+}
